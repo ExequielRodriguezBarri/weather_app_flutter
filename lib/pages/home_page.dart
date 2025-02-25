@@ -114,7 +114,7 @@ class HomePage extends StatelessWidget {
             top: 12,
             right: 0,
             height: 75,
-            child: Image.asset('assets/oc_logo.png'),
+            child: Image.asset('lib/assets/oc_logo.png'),
           ),
           Column(
             children: [
