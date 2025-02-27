@@ -1,3 +1,5 @@
+//I am guessing this hw is going to take me about 3 hs
+
 class Weather {
   late final int windSpeed;
   late final int windDirection;
