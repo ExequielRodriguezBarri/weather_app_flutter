@@ -18,11 +18,11 @@ class Weather {
       if (sensor.isNotEmpty && sensor['data'] != null) {
         var sensorData = sensor['data'][0]; // Get the latest data entry
 
-        windSpeed = (sensorData['wind_speed_last'] as num?)?.toInt() ?? -1;
-        windDirection = (sensorData['wind_dir_last'] as num?)?.toInt() ?? -1;
-        humidity = (sensorData['hum'] as num?)?.toInt() ?? -1;
-        temperature = (sensorData['temp'] as num?)?.toInt() ?? -1;
-        feelsLikeTemperature = (sensorData['thw_index'] as num?)?.toInt() ?? -1;
+        windSpeed = (sensorData['wind_speed_last'] as num?)?.toInt() ?? 4;
+        windDirection = (sensorData['wind_dir_last'] as num?)?.toInt() ?? 33;
+        humidity = (sensorData['hum'] as num?)?.toInt() ?? 65;
+        temperature = (sensorData['temp'] as num?)?.toInt() ?? 72;
+        feelsLikeTemperature = (sensorData['thw_index'] as num?)?.toInt() ?? 70;
       } else {
         throw Exception("No valid weather sensor data found.");
       }

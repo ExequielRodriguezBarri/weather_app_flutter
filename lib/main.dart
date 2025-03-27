@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'pages/home_page.dart';
 
+//I am guessing this is going to take me 2 hs to complete
+//It took me 1:55 hs to complete this hw
+
 void main() {
   runApp(const MyApp());
 }
